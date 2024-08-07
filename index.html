@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oussama Portfolio</title>
+    <!--  CSS Files  -->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+  />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <i class="fa fa-bars mobile-nav-toggle" onclick="toggleMenu(event)"></i>
+   <!-- Header Start --> 
+   <header id="header">
+    <aside class="aside">
+        <div class="profile">
+            <img src="assets/img/oussama-pic.png" class="profile-img" alt="oussama profile picture">
+            <h2><a href="index.html">Oussama</a></h2>
+            <p>Computer Science Student (Bsc) At De Montfort University</p>
+        </div>
+        <!-- Navbar Start -->
+        <nav class="nav-menu">
+            <ul>
+              <li>
+                <a href="#" class="active"><i class="fa fa-home"></i>Home</a>
+              </li>
+              <li>
+                <a href="about.html" class="active"><i class="fa fa-user"></i>About Me</a>
+              </li>
+              <li>
+                <a href="#"><i class="fa fa-briefcase"></i>Portfolio</a>
+              </li>
+              <li>
+                <a href="contact.html"><i class="fa fa-comments"></i>Contact</a>
+              </li>
+            </ul>
+          </nav>
+          <!-- Navbar End -->
+    </aside>
+   </header>
+   <!-- Header End -->
+   <!-- Main Body Start -->
+   <main id="main">
+    <section id="hero">
+        <div class="hero-container">
+         <h1>Oussama</h1>
+         <p>
+           I'm 
+           <span
+             class="txt-rotate"
+             data-period="1000"
+             data-rotate='["Software Engineer", "Frontend Developer", "Android Developer" ]'  
+             >Software Engineer</span
+           >
+         </p>
+         <div class="hero-action">
+            <a href="https://github.com/ossbk" class="btn btn-primary">
+              GitHub <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/ossbelk01/" class="btn btn-outline-primary">
+              Linkedin <i class="fab fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+    </section>
+    <section id="technology">
+      <div class="section-title">
+        <h2>My Expertise</h2>
+      </div>
+      <div class="three-col">
+        <div class="tech-box">
+          <div class="tech-icon">
+            <i class="fa-solid fa-layer-group"></i>
+          </div>
+          <h3 class="tech-heading">Software Engineer</h3>
+          <p class="tech-desc">
+            My expertise lies in architecting comprehensive software solutions, 
+            and I find fulfillment in turning abstract concepts into functional 
+            reality.
+          </p>
+          <h4 class="tech-lang">Language I speak</h4>
+          <p>Java, JavaScript, Python, C#</p>
+          <h4 class="tech-tools">Dev Tools</h4>
+          <p>IntelliJDEA, Eclipse, VS Studio Code</p>
+      </div>
+      <div class="tech-box">
+        <div class="tech-icon">
+          <i class="fa fa-code"></i>
+        </div>
+        <h3 class="tech-heading">Frontend Developer</h3>
+        <p class="tech-desc">
+          I like to code things from scratch, and enjoy bringing ideas to
+          life in the browser.
+        </p>
+        <h4 class="tech-lang">Language I speak</h4>
+        <p>HTML, CSS, LESS, SCSS, SASS, Bootstrap</p>
+        <h4 class="tech-tools">Dev Tools</h4>
+        <p>VS Code, Dreamweaver, Sublime</p>
+      </div>
+
+      <div class="tech-box">
+        <div class="tech-icon">
+          <i class="fa fa-mobile-alt"></i>
+        </div>
+        <h3 class="tech-heading">Android Developer</h3>
+        <p class="tech-desc">
+          I specialize in crafting innovative and user-friendly 
+          Android applications, leveraging my skills to create 
+          seamless and engaging mobile experiences.
+        </p>
+        <h4 class="tech-lang">Language I speak</h4>
+        <p>Java, Kotlin</p>
+        <h4 class="tech-tools">Dev Tools</h4>
+        <p>Android Studio, Gradle</p>
+      </div>
+    </div>
+    </section>
+   </main>
+    <!-- Main Body End -->
+<!-- Footer Start -->
+<footer id="footer">
+    <div class="credits">Designed by <a href="#">Oussama</a></div>
+</footer>
+<!-- Footer End -->  
+<!-- JS Files -->
+    <script src="assets/js/scripts.js"></script>
+</body>
+</html>

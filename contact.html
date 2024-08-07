@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oussama Portfolio</title>
+    <!--  CSS Files  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <i class="fa fa-bars mobile-nav-toggle" onclick="toggleMenu(event)"></i>
+    <!-- Header Start -->
+    <header id="header">
+      <aside class="aside">
+        <div class="profile">
+          <img
+            src="assets/img/oussama-pic.png"
+            class="profile-img"
+            alt="oussama profile picture"
+          />
+          <h2><a href="index.html">Oussama</a></h2>
+          <p>Computer Science Student (Bsc) At De Montfort University</p>
+        </div>
+        <!-- Navbar Start -->
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <a href="index.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa fa-user"></i>About Me</a>
+            </li>
+            <li>
+              <a href="portfolio.html"
+                ><i class="fa fa-briefcase"></i>Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="contact.html" class="active"
+                ><i class="fa fa-comments"></i>Contact</a
+              >
+            </li>
+          </ul>
+        </nav>
+        <!-- Navbar End -->
+      </aside>
+    </header>
+    <!-- Header End -->
+    <!-- Main Body Start -->
+    <main id="main">
+      <section id="contact">
+        <div class="section-title">
+          <h2>Contact me</h2>                                      
+        </div>
+        <div class="contact-address">
+            <h3>Address</h3>
+            <div class="address-outer">
+              <div class="address-info">
+                <p class="location">
+                  49 Featherstone Street <br />
+                  EC1Y 8SY, London <br />
+                  UNITED KINGDOM
+                </p>
+                <div class="contact-info">
+                  <p class="phone">
+                    <i class="fa fa-phone"></i>
+                    <span>
+                      <a href="tel:442030484377">+44 203 048 4377</a>
+                      <a href="tel:442030484377">+44 546 715 1200</a>
+                    </span>
+                  </p>
+                  <p>
+                    <i class="fa fa-envelope"></i>
+                    <a href="email:oussama@gmail.com">oussama@gmail.com</a>
+                  </p>
+                </div>
+              </div>
+              <div class="location-pin">
+                <?xml version="1.0" encoding="utf-8"?><!-- Uploaded to: SVG Repo, www.svgrepo.com, Generator: SVG Repo Mixer Tools -->
+                <svg
+                  width="800px"
+                  height="800px"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M10 10C10 8.89543 10.8954 8 12 8C13.1046 8 14 8.89543 14 10C14 11.1046 13.1046 12 12 12C10.8954 12 10 11.1046 10 10Z"
+                    fill="#149ddd"
+                  />
+                  <path
+                    fill-rule="evenodd"
+                    clip-rule="evenodd"
+                    d="M7.84129 3.12904C9.07122 2.39108 10.4805 2 11.9155 2H12.0845C13.5195 2 14.9288 2.39108 16.1587 3.12904C18.5391 4.55727 20 7.1321 20 9.90941C20 11.47 19.5381 12.9957 18.6724 14.2942L14.3868 20.7227C13.8547 21.5207 12.9591 22 12 22C11.0409 22 10.1453 21.5207 9.61325 20.7227L5.3276 14.2942C4.46194 12.9957 4 11.47 4 9.90941C4 7.13211 5.46089 4.55727 7.84129 3.12904ZM12 6C9.79086 6 8 7.79086 8 10C8 12.2091 9.79086 14 12 14C14.2091 14 16 12.2091 16 10C16 7.79086 14.2091 6 12 6Z"
+                    fill="#149ddd"
+                  />
+                </svg>
+              </div>
+            </div>
+          </div>
+          <div class="contact-bottom">
+            <div class="contact-form">
+              <form id="contactForm">
+                <div class="form-group">
+                  <input type="text" id="fname" placeholder="Name:" class="form-field" />
+                </div>
+                <div class="form-group">
+                  <input type="text" id="company" placeholder="Company:" class="form-field" />
+                </div>
+                <div class="form-group">
+                  <input type="email" id="email" placeholder="Email:" class="form-field" />
+                </div>
+                <div class="form-group">
+                  <input type="text" id="phone" placeholder="Phone:" class="form-field" />
+                </div>
+                <div class="form-group w-100">
+                  <textarea id="message" placeholder="Message:" rows="10" class="form-field"></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">
+                  Send Message
+                </button>
+              </form>
+            </div>
+            <div class="contact-map">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19866.22538622695!2d-0.09654866523437496!3d51.50811240000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48760349331f38dd%3A0xa8bf49dde1d56467!2sTower%20of%20London!5e0!3m2!1sen!2s!4v1713212321361!5m2!1sen!2s"
+                height="396"
+                style="border: 0"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+          </div>
+      </section>
+    </main>
+    <!-- Main Body End -->
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="credits">Designed by <a href="#">Oussama</a></div>
+    </footer>
+    <!-- Footer End -->
+    <!-- JS Files -->
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/contact.js"></script>
+  </body>
+</html>

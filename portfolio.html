@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Oussama Portfolio</title>
+    <!--  CSS Files  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <i class="fa fa-bars mobile-nav-toggle" onclick="toggleMenu(event)"></i>
+    <!-- Header Start -->
+    <header id="header">
+      <aside class="aside">
+        <div class="profile">
+          <img
+            src="assets/img/oussama-pic.png"
+            class="profile-img"
+            alt="oussama profile picture"
+          />
+          <h2><a href="index.html">Oussama</a></h2>
+          <p>Computer Science Student (Bsc) At De Montfort University</p>
+        </div>
+        <!-- Navbar Start -->
+        <nav class="nav-menu">
+          <ul>
+            <li>
+              <a href="index.html"><i class="fa fa-home"></i>Home</a>
+            </li>
+            <li>
+              <a href="about.html"><i class="fa fa-user"></i>About Me</a>
+            </li>
+            <li>
+              <a href="portfolio.html" class="active"
+                ><i class="fa fa-briefcase"></i>Portfolio</a
+              >
+            </li>
+            <li>
+              <a href="contact.html"><i class="fa fa-comments"></i>Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <!-- Navbar End -->
+      </aside>
+    </header>
+    <!-- Header End -->
+    <!-- Main Body Start -->
+    <main id="main">
+      <section id="portfolio">
+        <div class="section-title">
+          <h2>Portfolio</h2>
+          <p>
+            Explore a diverse range of projects showcasing my skills and expertise in software development and design.
+          </p>
+        </div>
+        <img id="loader" src="assets/img/loader.gif">
+        <div class="three-col" id="projects-list"></div>
+      </section>
+    </main>
+    <!-- Main Body End -->
+    <!-- Footer Start -->
+    <footer id="footer">
+      <div class="credits">Designed by <a href="#">Oussama</a></div>
+    </footer>
+    <!-- Footer End -->
+    <!-- JS Files -->
+    <script src="assets/js/scripts.js"></script>
+    <script src="assets/js/git.js"></script>
+  </body>
+</html>
